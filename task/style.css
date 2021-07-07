@@ -1,0 +1,6 @@
+ul{
+    columns: 3;
+    list-style: none;
+    width: 300px;
+    margin: 200px auto;
+}
