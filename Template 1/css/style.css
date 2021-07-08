@@ -1,0 +1,255 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: "Lato", sans-serif;
+}
+
+/* header start */
+header{
+    width: 100%;
+    padding: 10px 30px;
+    background-color: rgb(27, 11, 11);
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: relative;
+}
+
+.nav-links{
+    list-style: none;
+}
+
+.list-items{
+    margin-right: 20px;
+    display: inline-block;
+    text-transform: uppercase;
+}
+
+.search svg{
+    width: 25px;
+    height: 25px;
+}
+
+.dropdown-menu{
+    display: none;
+    position: absolute;
+}
+
+/* header end */
+
+
+/* main start */
+main{
+    width: 100%;
+}
+
+/* home-section starts */
+#home{
+    width: 100%;
+    height: 700px;
+    position: relative;
+}
+#home img{
+    width: 100%;
+    height: 700px;
+}
+
+#home .text{
+    width: 100%;
+    padding: 10px;
+    text-align: center;
+    color: white;
+    position: absolute;
+    bottom: 10%;
+}
+
+#home .text h3{
+    margin: 20px 0;
+}
+
+/* home-section ends */
+
+/* band-section starts */
+
+#band{
+    width: 60%;
+    margin: 50px auto;
+    padding: 50px 20px;
+    text-align: center;
+}
+
+#band .title h2{
+    margin: 20px 0;
+}
+#band .text p{
+    font-size: 14px;
+    color: darkgrey;
+    margin-bottom: 20px;
+}
+#band .description p{
+    text-align: justify;
+}
+
+.band-box{
+    margin-top: 50px;
+}
+.band-box .box{
+    display: inline-block;
+    margin: 0 20px;
+    width: 25%;
+}
+.band-box .box img{
+    width: 100%;
+}
+.band-box .box p{
+    margin: 10px 0;
+}
+/* band-section ends */
+
+/* tours-section starts */
+
+#tour{
+    width: 100%;
+    padding: 50px;
+    margin: 20px auto;
+    background-color: #000;
+    color: white;
+}
+#tour .title h2{
+    margin: 20px 0;
+    text-align: center;
+}
+#tour .text p{
+    margin-bottom: 50px;
+    color: darkgrey;
+    text-align: center;
+}
+
+#tour .ticket{
+    width: 60%;
+    margin: 0 auto;
+    background-color: white;
+}
+#tour ul li{
+    padding: 10px;
+    color: darkgrey;
+    border-bottom: 1px solid #e6e6e6;
+    list-style: none;
+    display: flex;
+    align-items: center;
+}
+p.sold{
+    color: white;
+    background: red;
+    padding: 5px;
+    margin-left: 20px;
+}
+.yes_ticket{
+    justify-content: space-between;
+}
+.yes_ticket .new{
+    background: #000;
+    color: white;
+    padding: 5px 8px;
+    border-radius: 50%;
+}
+.blog{
+    width: 60%;
+    margin: 50px auto;
+}
+.blog-box{
+    width: 30%;
+    background-color: white;
+    display: inline-block;
+}
+.blog-box:nth-child(2){
+    margin: 0 4.2%;
+}
+.blog-box img{
+    width: 100%;
+}
+.blog-box .text p{
+    margin-bottom: 10px !important;
+    text-align: left !important;
+}
+.blog-box h4,.blog-box p{
+    color: #000;
+    text-align: left;
+    padding: 0 10px 30px 10px;
+}
+.blog-box button{
+    color: white;
+    background-color: #000;
+    padding: 5px;
+    border: none;
+    margin: 10px 0;
+    font-size: 18px;
+    margin-left: 10px;
+}
+/* tours-section ends */
+
+
+/* contact-section starts */
+#contact{
+    width: 60%;
+    margin:  50px auto;
+}
+#contact h2, #contact p{
+    text-align: center;
+}
+#contact p{
+    color: darkgrey;
+    margin: 20px 0;
+}
+#contact ul li{
+    list-style: none;
+}
+
+#contact ul li img{
+    width: 14px;
+    height: 14px;
+}
+#contact span{
+    margin-left: 20px;
+    display: inline-block;
+}
+#contact .contact-form{
+    display: flex;
+}
+
+form,.info{
+    margin-left: 40px;
+    width: 50%;
+}
+form input{
+    display: inline-block;
+    margin-top: 10px;
+    padding: 5px 10px;
+    width: 45% ;
+
+}
+.top{
+    width: 100%;
+}
+.bottom input{
+    width: 91%;
+}
+
+form button{
+    background: #000;
+    text-transform: uppercase;
+    color: white;
+    padding: 5px;
+    text-align: center;
+    border: none;
+    display: inline-block;
+    margin-left: 80%;
+    margin-top: 15px;
+}
+/* contact-section ends */
+/* main ends */
